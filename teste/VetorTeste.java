@@ -18,6 +18,9 @@ public class VetorTeste {
 	
 	vetor.adiciona(0,"a");
 	
+
+	System.out.println(vetor);
+	
 	System.out.println(vetor);
 	
 	vetor.adiciona(3,"d");
@@ -25,7 +28,7 @@ public class VetorTeste {
 	System.out.println(vetor);
 	
 	vetor.adiciona(3,"c2");
-	
+	vetor.remove(1);
 	System.out.println(vetor);
 	}
 
